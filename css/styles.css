@@ -1,5 +1,33 @@
 /* Your Awesome Styling*/
 
+/* Bio */
+.bio #bio {
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio #bio section {
+    margin: 0 10px;
+    width: 50%;
+}
+
+.bio section:nth-child(1) {
+    width: 400px;
+}
+
+/* Resume */
+.bio #resume {
+    background: orange;
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.bio #resume section {
+    flex: 1 25%;
+}
+
+
 /* Form Section */
 
 label, input {
